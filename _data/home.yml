@@ -8,42 +8,18 @@ navbar_entries:
   - title: Artigos 
     url: blog
 
-#  - title: website
-#    url: https://www.abhinav.co
-
 project_entries:
-  - title: Project 1
-    url: code 
-    desc: This is an example project, configured in _data/home.yml
+  - title: I<br>Equívocos
+    url: equivocos 
+    desc: Há muitos equívocos a respeito do aprendizado de novas línguas. O processo é mais fácil (e divertido) do que parece, e nós vamos abordar isso aqui. 
 
-  - title: Project 2
-    url: soopr 
-    desc: Projects are shown in card layout
+  - title: II<br>Motivos
+    url: motivos 
+    desc: Aquele que tem um 'por quê' pode suportar qualquer 'como'. Vamos explorar alguns motivos para se aprender línguas e como manter a motivação. 
 
-  - title: Project 3
-    url: overview-post
-    desc: You can control visibility from _config.yml file
-
-#
-#  - title: Project 4
-#    url: overview-post
-#    desc: This project uses highlight markup, configured in _data/home.yml
-#    highlight: WIP
-#
-#  - title: Project 5
-#    url: overview-post
-#    desc: Moonwalk also has horizontal list (used in header and footer)
-#    highlight: WIP
-#
-#  - title: Project 6
-#    url: overview-post
-#    desc: It also has a scalable vertical list (in case you need it)
-
-#old_project_entries:
-#  - title: Soopr
-#    url: https://www.soopr.co
-#    desc: Delight your readers - add beautiful share and like buttons easily to your websites 
-#    highlight: NEW
+  - title: III <br>Métodos
+    url: metodo
+    desc: Vamos por isso em prática. O processo se dá por meio do "cair-de-cabeça". Mas como podemos tornar esse "cair-de-cabeça" mais eficiente e agradável? 
 
 footer_entries:
   - title: github

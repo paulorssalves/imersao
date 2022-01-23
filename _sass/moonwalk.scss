@@ -35,6 +35,7 @@ li { margin: 0.4em 0; }
   max-width: 720px;
   margin: 0 auto;
   padding: 4em 2em;
+  min-height: calc(100vh - 102px);
 }
 
 table, th, td {
@@ -183,11 +184,12 @@ p code, li code {
 .project-title {
   margin-bottom: 0.8rem;
 }
-.credits {
+footer {
   font-size: 0.8em;
   color: var(--text);
-  margin: 8em auto -4em auto;
+  margin: 0 auto; 
   text-align: center;
+  min-height: 100%;
   a {
     color: var(--text);
     text-decoration: none;

@@ -1,7 +1,7 @@
-<ul class="horizontal-list">
+<div class="section-list">
   {% for item in include.collection %}
 
-    <li class="card">
+    <div class="card">
       <a href="{{ item.url }}">
         <span class="header">
           {{ item.title }}
@@ -20,7 +20,7 @@
         </p>
         {% endif %}
       </a>
-    </li>
+    </div>
 
   {% endfor %}
-</ul>
+</div>

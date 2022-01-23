@@ -1,7 +1,13 @@
-<p class="post-date text-bold text-upcase">
-  {% if page.date %}
-    <span>{{ page.date | date: "%B %Y"}}</span>
-  {% endif %}
+<p class="post-date text-italic text-upcase">
+{% if page.date %}
+  <span class="release-date"><i>Publicado: {{ page.date | date: "%m/%Y"}}</i></span>
+{% endif %}
+&nbsp;
+•
+&nbsp;
+{% if page.last-modified-date %}
+  <span class="last-modified-date"><i>Modificado: {{ page.last-modified-date | date: '%m/%Y' }}</i></span>
+{% endif %}
 </p>
 
 <div class="soopr-btn"
