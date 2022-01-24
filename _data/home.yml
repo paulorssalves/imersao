@@ -3,23 +3,10 @@ navbar_entries:
     url: about
 
   - title: Seções 
-    url: blog
+    url: sections
 
   - title: Artigos 
     url: blog
-
-project_entries:
-  - title: I<br>Equívocos
-    url: equivocos 
-    desc: Há muitos equívocos a respeito do aprendizado de novas línguas. O processo é mais fácil (e divertido) do que parece, e nós vamos abordar isso aqui. 
-
-  - title: II<br>Motivos
-    url: motivos 
-    desc: Aquele que tem um 'por quê' pode suportar qualquer 'como'. Vamos explorar alguns motivos para se aprender línguas e como manter a motivação. 
-
-  - title: III <br>Métodos
-    url: metodo
-    desc: Vamos por isso em prática. O processo se dá por meio do "cair-de-cabeça". Mas como podemos tornar esse "cair-de-cabeça" mais eficiente e agradável? 
 
 footer_entries:
   - title: github

@@ -1,0 +1,19 @@
+---
+layout: section 
+title: Seções do site
+---
+
+<h2>{{title}}</h2>
+
+{% for item in site.sections %}
+
+<div class="section-box">
+<a href="{{item.url}}"><h3>{{item.title}}</h3></a>
+<i>
+    <p>
+        {{item.desc}}
+    </p>
+</i>
+</div>
+
+{% endfor %}
