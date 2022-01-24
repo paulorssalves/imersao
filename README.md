@@ -3,4 +3,4 @@
 ```Em construção.```
 
 ## Design:
-- O design deste site é baseado no tema ["moonwalk" de abhinavs](https://abhinavs.github.io/moonwalk/).
+- O design deste site foi baseadeo no tema ["moonwalk", de abhinavs](https://abhinavs.github.io/moonwalk/), subsequentemente modificado por mim.
