@@ -1,12 +1,12 @@
 navbar_entries:
   - title: Sobre 
-    url: about
+    url: /about
 
   - title: Seções 
-    url: sections
+    url: /sections
 
   - title: Artigos 
-    url: blog
+    url: /blog
 
 footer_entries:
   - title: github

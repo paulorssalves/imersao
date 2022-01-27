@@ -1,20 +1,17 @@
-<h2>Seções</h2>
-
+<h2>{{ site.theme_config.home.title_projects }}</h2>
 <div class="section-list">
   {% for item in site.sections %}
 
     <div class="card">
       <a href="{{ item.url }}">
-        <span class="header">
+        <h3 class="header">
           {{ item.title }}
 
           {% if item.highlight %}
             <mark>{{ item.highlight }}</mark>
           {% endif %}
 
-        </span>
-
-        <hr />
+        </h3>
 
         {% if item.desc != false %}
         <p class="body">

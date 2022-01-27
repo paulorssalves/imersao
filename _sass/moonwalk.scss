@@ -3,6 +3,33 @@
 
 html { height: 100%; }
 
+header {
+position: fixed;
+width: 100%;
+background-color: var(--bg); 
+top: 0;
+border-bottom: dashed 1px;
+.container {
+  width: 80%;  
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  }
+
+  h1 {
+    display: inline;
+    margin: 0;
+  }
+
+  ul {
+    margin: 0;
+    display: inline;
+  }
+}
+
+
 body {
   font-family:  "Inter", -apple-system, "avenir next", avenir, roboto, noto, ubuntu, "helvetica neue", helvetica, sans-serif;
   font-size: 1.0rem;
@@ -34,7 +61,7 @@ li { margin: 0.4em 0; }
 .w {
   max-width: 720px;
   margin: 0 auto;
-  padding: 4em 2em;
+  padding: 70px 2em;
   min-height: calc(100vh - 102px);
 }
 
@@ -76,7 +103,7 @@ html {
 }
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
-  html, body  {
+  html, body, header  {
       --headings: #74c0fc;
       --links: #91A7FF;
       --highlight: #41C7C7;
