@@ -75,3 +75,10 @@ ul.horizontal-list {
     }
   }
 }
+
+#site-logo {
+  a {
+    color: var(--headings); 
+    text-decoration: none;
+  }
+}
